@@ -12,4 +12,5 @@ deployment:
     commands:
       - rm -rf $HOME/$CIRCLE_PROJECT_REPONAME/.git
       - rm circle.yml
+      - rm requirements.txt
       - turbolift -u $RAXUSER -a $RAXAPIKEY --os-rax-auth $RAXREGION upload -s $HOME/$CIRCLE_PROJECT_REPONAME/ -c $CONTAINER
