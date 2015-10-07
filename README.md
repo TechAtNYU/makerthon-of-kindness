@@ -1,1 +1,0 @@
-# makerthon-of-kindness

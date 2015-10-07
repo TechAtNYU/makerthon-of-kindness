@@ -1,63 +1,282 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>rmok</title>
-	<link rel="stylesheet" type="text/css" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-</head>
-<body>
+	<head>
+		<title>RMOK</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="icon" type="img/png" href="images/logo.png">
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
 
-	<div class="front_page full_page">
-		<img href="assets/imgs/rhok_logo.png">
-	</div>
-	<div data-magellan-expedition="fixed" class="nav_bar">
-	  <dl class="sub-nav">
-	    <dd data-magellan-arrival="about"><a href="#about_page">ABOUT</a></dd>
-	    <dd data-magellan-arrival="learn"><a href="#learn_page">LEARN</a></dd>
-	    <dd data-magellan-arrival="apply"><a href="#">APPLY</a></dd>
-	    <dd data-magellan-arrival="logistics"><a href="#">LOGISTICS</a></dd>
-	    <dd data-magellan-arrival="sponsors"><a href="#">SPONSORS</a></dd>
-	  </dl>
-	</div>
-	<div class="full_page" id="about_page">
-		<h1 data-magellan-destination="about">About</h1>
-		Cray art party craft beer, pickled hoodie tilde tattooed locavore narwhal migas. Tattooed beard Carles, sustainable chia PBR paleo trust fund authentic. PBR photo booth meh, High Life meditation forage flexitarian direct trade 8-bit selfies sriracha trust fund asymmetrical normcore kitsch. Letterpress yr slow-carb, Tumblr VHS wolf shabby chic. Church-key mlkshk tofu hoodie. Next level stumptown scenester disrupt. Chia small batch banh mi yr blog selfies.
-	</div>
-	<hr>
-	<div class="full_page" id="learn_page">
-		<h1 data-magellan-destination="learn">Learn</h1>
-		Wes Anderson Godard chambray health goth. Vegan typewriter Blue Bottle, migas DIY Thundercats four loko normcore meh photo booth. Literally butcher artisan, PBRB drinking vinegar actually meditation roof party. Hoodie pork belly twee, salvia meh Pinterest fixie bitters. Seitan bitters roof party +1 street art. You probably haven't heard of them art party ethical shabby chic, pop-up cold-pressed viral authentic. Blue Bottle kale chips church-key pug banjo 90's Odd Future.
-	</div>
-	<hr>
-	<div class="full_page" id="apply_page">
-		<h1 data-magellan-destination="apply">Apply</h1>
-		PBR tousled banh mi +1 put a bird on it normcore fingerstache Kickstarter, organic migas small batch Bushwick Schlitz. Echo Park Neutra tote bag, wolf health goth distillery Bushwick ethical leggings. IPhone retro 3 wolf moon shabby chic, DIY drinking vinegar sriracha vinyl American Apparel you probably haven't heard of them Carles freegan locavore butcher flexitarian. Cold-pressed tofu Echo Park, small batch 3 wolf moon selvage craft beer selfies food truck Portland Austin post-ironic crucifix photo booth. Meditation tousled ennui, Vice banh mi asymmetrical meh squid hella Bushwick. Mustache lo-fi keffiyeh PBR, High Life mixtape gentrify church-key Banksy meggings twee. 90's craft beer master cleanse Odd Future Echo Park, letterpress actually paleo fingerstache forage.
-	</div>
-	<hr>
-	<div class="full_page" id="logistics_page">
-		<h1 data-magellan-destination="logistics">Logistics</h1>
-		Cred actually cray chia asymmetrical trust fund. Echo Park kitsch meh, Godard Etsy tote bag semiotics selfies Austin blog banjo skateboard. Viral salvia selvage authentic street art, whatever health goth. Master cleanse tattooed jean shorts, plaid four loko Pitchfork PBRB photo booth keytar fashion axe fixie pour-over readymade meggings. Retro Godard sartorial sustainable. Leggings mumblecore wolf salvia hoodie. Salvia ethical occupy banh mi vegan typewriter.
-	</div>
-	<hr>
-	<div class="full_page" id="sponsors_page">
-		<h1 data-magellan-destination="sponsors">Sponsors</h1>
-		Flannel mixtape flexitarian ethical Vice, freegan quinoa. Selvage Etsy umami PBR pork belly, lo-fi Brooklyn migas. Flexitarian American Apparel typewriter Schlitz crucifix. Banjo master cleanse meh hashtag beard Pinterest chillwave organic Banksy polaroid. Tilde heirloom Bushwick asymmetrical. Street art disrupt kitsch, meggings tattooed sartorial drinking vinegar butcher freegan. Taxidermy Echo Park farm-to-table, VHS paleo distillery sartorial put a bird on it Vice lo-fi.
-	</div>
-	<script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-     	$(document).foundation({
-			"magellan-expedition": {
-		  	active_class: 'nav-bar-active', // specify the class used for active sections
-		  	threshold: 0, // how many pixels until the magellan bar sticks, 0 = auto
-		  	destination_threshold: 20, // pixels from the top of destination for it to 	be considered active
-		  	throttle_delay: 50, // calculation throttling to increase framerate
-		  	fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
-		  	offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
-			}
-		});
-    </script>
-</body>
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<img src="images/logo.png" id="logo" class="hvr-buzz-out"> <br>
+							<h1><a href="index.html">Random Makerthons Of Kindness</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="#about_us">About Us</a></li>
+									<li><a href="#participants">Apply</a></li>
+									<li><a href="#volunteers">Volunteers</a></li>
+									<li><a href="#sponsors">Our Sponsors</a></li>
+									<li><a href="#dates">Dates and Times</a></li>
+									<li><a href="#contact_us">Contact Us</a></li>
+								</ul>
+							</nav>
+
+						<!-- Banner -->
+							<section id="banner">
+								<header>
+									<h2>Be Kind, Be Random, Be Awesome</h2>
+									<p>A Student Run Makerthon</p>
+								</header>
+							</section>
+
+						<!-- Intro -->
+							<section id="intro" class="container">
+								<div class="row">
+									<div class="4u 12u(mobile)">
+										<section class="first">
+											<i class="icon featured fa-cog"></i>
+											<header>
+												<h2>Learn</h2>
+											</header>
+											<p>
+												Are you interested in learning something fun and useful in order to create something awesome? Well rest assured, our makerthon is the right for you.
+											</p>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="middle">
+											<i class="icon featured alt fa-flash"></i>
+											<header>
+												<h2>Social Impact</h2>
+											</header>
+											<p>
+												Find out how your new skills can help the people around you.
+											</p>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="last">
+											<i class="icon featured alt2 fa-star"></i>
+											<header>
+												<h2>Find New Possibilities</h2>
+											</header>
+											<p>
+												Never thought of yourself as a maker? Join us and find out about new possibilities.
+											</p>
+										</section>
+									</div>
+								</div>
+								<footer>
+									<ul class="actions">
+										<li><a href="#" class="button big">Apply</a></li>
+										<li><a href="#" class="button alt big">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+								<!-- About Us -->
+									<section id="about_us">
+										<header class="major">
+											<h2>About Us</h2>
+										</header>
+										<div class="row">
+											<p>
+												Tech@NYU, a tech and entrepreneurship student body, is planning a small programming day for kids called Random Makerthon of Kindness.
+											</p>
+											<p>
+												The event will be a small hackathon for youth (9 to 15 year olds) who are interested in programming and want to program something random and fun with the guidance of various mentors. Random Makerthon of Kindess will last 12 hours on November 21st and will take place in the Leslie eLab. Currently we are seeking volunteers for helping the event and participants for the event. 
+											</p>
+										</div>
+									</section>
+							</div>
+							<div class="12u">
+								<!-- Participants -->
+									<section>
+										<header class="major">
+											<h2>Participants</h2>
+										</header>
+										<div class="row">
+											<h3>
+												Tech@NYU, a tech and entrepreneurship student body, is planning a small programming day for kids called Random Makerthon of Kindness.
+											</h3>
+											<h3>
+												The event will be a small hackathon for youth (9 to 15 year olds) who are interested in programming and want to program something random and fun with the guidance of various mentors. Random Makerthon of Kindess will last 12 hours on November 21st and will take place in the Leslie eLab. Currently we are seeking volunteers for helping the event and participants for the event. 
+											</h3>
+										</div>
+									</section>
+							</div>
+							<div class="12u">
+								<!-- Sponsors -->
+									<section id="sponsors">
+										<header class="major">
+											<h2>Our Sponsors</h2>
+										</header>
+										<div class="row">
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 1</h3>
+													</header>
+												</section>
+											</div>
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 2</h3>
+													</header>
+												</section>
+											</div>
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 3</h3>
+													</header>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 4</h3>
+													</header>
+												</section>
+											</div>
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 5</h3>
+													</header>
+												</section>
+											</div>
+											<div class="4u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+													<header>
+														<h3>Cool Tech Company 6</h3>
+													</header>
+												</section>
+											</div>
+										</div>
+									</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<section id="footer" class="container">
+						<div class="row">
+							<div class="8u 12u(mobile)">
+								<section id="dates">
+									<header>
+										<h2>Dates and Times</h2>
+									</header>
+									<ul class="dates">
+										<li>
+											<span class="date">Nov <strong>7</strong></span>
+											<h3>Application Deadline</h3>
+											<p>This is the last day we'll be accepting applications. Don't worry we will still take in requests for new applicants and consider them.</p>
+										</li>
+										<li>
+											<span class="date">Nov <strong>14</strong></span>
+											<h3>RSVP</h3>
+											<p>Let us know if you will be coming to the makerthon.</p>
+										</li>
+										<li>
+											<span class="date">Nov <strong>21</strong></span>
+											<h3>The Makerthon!</h3>
+											<p>The actual day of the makerthon. Join us to make something awesome!</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section id="contact_us">
+									<header>
+										<h2>Contact Us!</h2>
+									</header>
+									<ul class="social">
+										<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
+									</ul>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<p>
+												Untitled Incorporated<br />
+												1234 Somewhere Road Suite<br />
+												New York, NY 100013-5609
+											</p>
+										</li>
+										<li>
+											<h3>Mail</h3>
+											<p><a href="#">Jeff@nyu.edu</a></p>
+										</li>
+										<li>
+											<h3>Phone(Jeff)</h3>
+											<p>(206) 375-8241</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Makerthon of Kindness. All rights reserved.</li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
