@@ -2547,8 +2547,9 @@
 	}
 #logo {
 	width: 17em;
-/*	-webkit-animation: spin 10s infinite linear;
-    animation: spin 10s infinite linear;*/
+	-webkit-animation: spin 10s infinite linear;
+    animation: spin 10s infinite linear;
+    padding:0;
 }
 @-webkit-keyframes spin {
     100% { -webkit-transform: rotate(360deg); }
@@ -2562,4 +2563,11 @@
         -o-transform:rotate(360deg);
         transform:rotate(360deg);
     }
+}
+#about_us_text {
+	font-size: 20px;
+	font-weight: 5px;
+}
+#about_page {
+	margin-left: 6%;
 }
