@@ -1439,6 +1439,10 @@
 		position: relative;
 		border-top: solid 1px #ddd;
 		padding: 1.3em 0 1.3em 6.75em;
+		float: left;
+		.top {
+			border-top: 
+		}
 	}
 
 	ul.dates .date {
@@ -1467,9 +1471,7 @@
 		}
 
 		ul.dates .date strong {
-			display: block;
 			font-size: 1.75em;
-			padding-top: 0.15em;
 		}
 
 	ul.dates h3 {
@@ -1479,16 +1481,6 @@
 	ul.dates p {
 		margin: 0;
 	}
-
-	ul.dates li:first-child {
-		border-top: 0;
-		padding-top: 0;
-	}
-
-		ul.dates li:first-child .date {
-			top: 0;
-		}
-
 	ul.divided li {
 		border-top: solid 1px #ddd;
 		padding: 1em 0 1em 0;
@@ -1655,7 +1647,7 @@
 /* Banner */
 
 	#banner {
-		background: url("images/background1.png");
+		background: url("images/background1.jpg");
 		background-position: center center;
 		background-size: 100%;
 		background-repeat: no-repeat;
@@ -1803,7 +1795,7 @@
 		/* Box */
 
 			.box {
-				padding: 2.75em 1.75em 2.75em 1.75em;
+				padding: 2.75em 1.75em 0.75em 1.75em;
 			}
 
 				.box .image.featured {
@@ -1882,7 +1874,7 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 4em 0;
+				padding: 0.5em 0 4em 0;
 			}
 
 			#main-wrapper {
@@ -1912,7 +1904,7 @@
 					font-weight: 900;
 					font-size: 2.5em;
 					letter-spacing: -0.035em;
-					margin: 0 0 1em 0;
+					margin: 0 0 0.5em 0;
 				}
 
 		/* Nav */
@@ -2029,7 +2021,7 @@
 			}
 
 				#intro section {
-					margin: 3em 0;
+					margin: 1.9em 0;
 					padding: 2.5em 0;
 				}
 
@@ -2545,10 +2537,11 @@
 
 	}
 #logo {
-	width: 17em;
+	width: 100%;
 	-webkit-animation: spin 10s infinite linear;
     animation: spin 10s infinite linear;
     padding:0;
+    margin-bottom: 40px;
 }
 @-webkit-keyframes spin {
     100% { -webkit-transform: rotate(360deg); }
@@ -2569,4 +2562,27 @@
 }
 #about_page {
 	margin-left: 6%;
+}
+#sponsors img{
+	height: 13em;
+	border-radius: 10px;
+}
+#sponsors .box {
+	border-radius: 10px;
+	border: 2px dashed #000;
+
+}
+#sponsors .box header {
+	border-top: solid 1px black;  
+	text-align: center;
+	font-family: sans-serif;
+}
+#tech_at_nyu_logo {
+	width: 100%;
+}
+#randy {
+	width: 13em;
+}
+.top_category {
+	padding-top: 0;
 }
