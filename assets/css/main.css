@@ -1647,7 +1647,7 @@
 /* Banner */
 
 	#banner {
-		background: url("images/background1.jpg");
+		background: url("images/background1.png");
 		background-position: center center;
 		background-size: 100%;
 		background-repeat: no-repeat;
@@ -2585,4 +2585,7 @@
 }
 .top_category {
 	padding-top: 0;
+}
+#volunteers i {
+	font-size: 10em;
 }
